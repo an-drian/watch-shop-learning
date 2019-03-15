@@ -1,0 +1,30 @@
+nav {
+  display: flex;
+  height: 40px;
+  background-color: $primary;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+  color: $white;
+  .logo {
+    width: 30px;
+    height: 100%;
+  }
+  .search-bar {
+    height: 20px;
+    display: block;
+    background-color: $primary-light;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    color: $white;
+    padding: 0 5px;
+    font-size: 12px;
+  }
+  .nav-list {
+    display: flex;
+    > li:not(:last-child) {
+      margin-right: 10px;
+    }
+  }
+}
