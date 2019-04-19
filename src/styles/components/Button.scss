@@ -1,0 +1,11 @@
+.btn-wrap {
+  display: flex;
+  &.right {
+    justify-content: flex-end;
+  }
+  .w-btn {
+    background-color: $primary-light;
+    padding: 10px 20px;
+    color: #fff;
+  }
+}

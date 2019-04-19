@@ -1,5 +1,7 @@
-@import "./styles/vars";
-@import "./styles/general";
-@import "./styles/components/Header";
+@import './styles/vars';
+@import './styles/general';
+@import './styles/components/Header';
+@import './styles/components/ProductsList';
+@import './styles/components/Button';
 
-@import"./styles/lib/react-carousel.scss";
+@import './styles/lib/react-carousel.scss';
